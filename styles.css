@@ -1,0 +1,68 @@
+.sound {
+	display: none;
+}
+
+.Intro,
+.Start,
+.Settings {
+	background-color: aquamarine;
+	height: 50px;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Start {
+	height: 275px;
+	width: 275px;
+	border-style: dotted;
+	border-radius: 100%;
+	flex-direction: column;
+}
+
+.wtimer {
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.col p {
+	margin-bottom: 0;
+}
+
+.btimer,
+.lbtimer {
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-popup {
+	display: none;
+	padding: 10px;
+	border: 3px solid #f1f1f1;
+	background-color: aliceblue;
+}
+
+.col-lg-12 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-label {
+	margin: 0;
+}
+
+.lgbreak {
+	display: none;
+}
+
+.lgbr_len {
+	display: none;
+}
+
+.start_timer_button {
+	display: block;
+}
