@@ -21,6 +21,10 @@
 	flex-direction: column;
 }
 
+.start_timer_button {
+	display: block;
+}
+
 .wtimer {
 	display: none;
 	align-items: center;
@@ -61,8 +65,4 @@
 
 .lgbr_len {
 	display: none;
-}
-
-.start_timer_button {
-	display: block;
 }

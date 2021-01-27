@@ -47,7 +47,6 @@ function lgbrValidate() {
 }
 
 // ------------ Rendering Actual Timer ----------- //
-
 // Getting current timer value
 var wm = document.querySelector(".wmin");
 var ws = document.querySelector(".wsec");
