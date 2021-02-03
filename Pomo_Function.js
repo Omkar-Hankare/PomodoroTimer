@@ -96,7 +96,7 @@ function timer() {
 		wm.innerText--;
 	}
 
-	if (wm.innerText == 0 && ws.innerText == 0) {
+	if (wm.innerText == 0 && ws.innerText == 0 && bm.innerText != 0 && bs.innerText != 0) {
 		Playbell();
 	}
 	if (wm.innerText == 0 && ws.innerText == 0) {
