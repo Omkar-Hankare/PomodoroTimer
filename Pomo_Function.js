@@ -72,6 +72,7 @@ var lgbr_fre;
 var lgbr_len;
 var curr_sess;
 var count = 1;
+var bell = true;
 
 function closeForm() {
 	$(".start_timer").css("display", "none");
@@ -96,8 +97,9 @@ function timer() {
 		wm.innerText--;
 	}
 
-	if (wm.innerText == 0 && ws.innerText == 0 && bm.innerText != 0 && bs.innerText != 0) {
+	if (wm.innerText == 0 && ws.innerText == 0 && bell ) {
 		Playbell();
+		bell = false;
 	}
 	if (wm.innerText == 0 && ws.innerText == 0) {
 		// work timer finished
@@ -125,6 +127,7 @@ function timer() {
 		} else if (bm.innerText == 0 && bs.innerText == 0) {
 			Playbell();
 			count++;
+			bell = true;
 			if (count == lgbr_fre) {
 				wm.innerText = 25;
 				ws.innerText = 0;
